@@ -1,0 +1,1708 @@
+[
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 2,
+        "probes": 1,
+        "rigid_families": 2
+      },
+      {
+        "families": 4,
+        "probes": 2,
+        "rigid_families": 4
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 2,
+    "minimum_count_probes": 0,
+    "points": 1,
+    "producer_supports": [],
+    "upper_sets": [
+      1
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 4,
+        "probes": 1,
+        "rigid_families": 2
+      },
+      {
+        "families": 16,
+        "probes": 2,
+        "rigid_families": 12
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 4,
+    "minimum_count_probes": 1,
+    "points": 2,
+    "producer_supports": [
+      2
+    ],
+    "upper_sets": [
+      1,
+      2
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 4,
+        "probes": 1,
+        "rigid_families": 4
+      },
+      {
+        "families": 16,
+        "probes": 2,
+        "rigid_families": 16
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 3,
+    "minimum_count_probes": 0,
+    "points": 2,
+    "producer_supports": [],
+    "upper_sets": [
+      3,
+      2
+    ]
+  },
+  {
+    "automorphism_count": 6,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 8,
+        "probes": 1,
+        "rigid_families": 0
+      },
+      {
+        "families": 64,
+        "probes": 2,
+        "rigid_families": 24
+      }
+    ],
+    "first_optimal_supports": [
+      1,
+      2
+    ],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 2,
+    "points": 3,
+    "producer_supports": [
+      2,
+      4
+    ],
+    "upper_sets": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 8,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 64,
+        "probes": 2,
+        "rigid_families": 64
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 6,
+    "minimum_count_probes": 0,
+    "points": 3,
+    "producer_supports": [],
+    "upper_sets": [
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 8,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 64,
+        "probes": 2,
+        "rigid_families": 64
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 6,
+    "minimum_count_probes": 0,
+    "points": 3,
+    "producer_supports": [],
+    "upper_sets": [
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 8,
+        "probes": 1,
+        "rigid_families": 4
+      },
+      {
+        "families": 64,
+        "probes": 2,
+        "rigid_families": 48
+      }
+    ],
+    "first_optimal_supports": [
+      2
+    ],
+    "jointly_injective": false,
+    "lattice_size": 5,
+    "minimum_count_probes": 1,
+    "points": 3,
+    "producer_supports": [
+      4
+    ],
+    "upper_sets": [
+      7,
+      2,
+      4
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 8,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 64,
+        "probes": 2,
+        "rigid_families": 64
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 6,
+    "minimum_count_probes": 0,
+    "points": 3,
+    "producer_supports": [],
+    "upper_sets": [
+      1,
+      6,
+      4
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 8,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 64,
+        "probes": 2,
+        "rigid_families": 64
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 4,
+    "minimum_count_probes": 0,
+    "points": 3,
+    "producer_supports": [],
+    "upper_sets": [
+      7,
+      6,
+      4
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 8,
+        "probes": 1,
+        "rigid_families": 4
+      },
+      {
+        "families": 64,
+        "probes": 2,
+        "rigid_families": 48
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 5,
+    "minimum_count_probes": 1,
+    "points": 3,
+    "producer_supports": [
+      2
+    ],
+    "upper_sets": [
+      5,
+      6,
+      4
+    ]
+  },
+  {
+    "automorphism_count": 24,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 0
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 24
+      }
+    ],
+    "first_optimal_supports": [
+      3,
+      5
+    ],
+    "jointly_injective": false,
+    "lattice_size": 16,
+    "minimum_count_probes": 2,
+    "points": 4,
+    "producer_supports": [
+      10,
+      12
+    ],
+    "upper_sets": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      4
+    ],
+    "jointly_injective": false,
+    "lattice_size": 12,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      3,
+      2,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      2
+    ],
+    "jointly_injective": false,
+    "lattice_size": 12,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      5,
+      2,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      2
+    ],
+    "jointly_injective": false,
+    "lattice_size": 10,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      4
+    ],
+    "upper_sets": [
+      7,
+      2,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      2
+    ],
+    "jointly_injective": false,
+    "lattice_size": 12,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      4
+    ],
+    "upper_sets": [
+      9,
+      2,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      2
+    ],
+    "jointly_injective": false,
+    "lattice_size": 10,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      11,
+      2,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      4
+    ],
+    "jointly_injective": false,
+    "lattice_size": 10,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      13,
+      2,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 6,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 0
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 96
+      }
+    ],
+    "first_optimal_supports": [
+      2,
+      4
+    ],
+    "jointly_injective": false,
+    "lattice_size": 9,
+    "minimum_count_probes": 2,
+    "points": 4,
+    "producer_supports": [
+      4,
+      8
+    ],
+    "upper_sets": [
+      15,
+      2,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 12,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      1,
+      6,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      7,
+      6,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 10,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      2
+    ],
+    "upper_sets": [
+      5,
+      6,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 12
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 240
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 9,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      9,
+      6,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 7,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      15,
+      6,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      13,
+      6,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 12,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      4
+    ],
+    "upper_sets": [
+      1,
+      10,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      11,
+      10,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 12
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 240
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 9,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      5,
+      10,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 7,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      15,
+      10,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 10,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      2
+    ],
+    "upper_sets": [
+      9,
+      10,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      13,
+      10,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      4
+    ],
+    "jointly_injective": false,
+    "lattice_size": 10,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      1,
+      14,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      4
+    ],
+    "jointly_injective": false,
+    "lattice_size": 6,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      15,
+      14,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      5,
+      14,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      9,
+      14,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 4,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 4
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 144
+      }
+    ],
+    "first_optimal_supports": [
+      5
+    ],
+    "jointly_injective": false,
+    "lattice_size": 7,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      10
+    ],
+    "upper_sets": [
+      13,
+      14,
+      4,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 12,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      2
+    ],
+    "upper_sets": [
+      1,
+      2,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 12
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 240
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 9,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      8
+    ],
+    "upper_sets": [
+      3,
+      2,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      13,
+      2,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 7,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      15,
+      2,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 10,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      4
+    ],
+    "upper_sets": [
+      9,
+      2,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      11,
+      2,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 8,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      1,
+      14,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 5,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      15,
+      14,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      1
+    ],
+    "jointly_injective": false,
+    "lattice_size": 6,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      2
+    ],
+    "upper_sets": [
+      13,
+      14,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 7,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      9,
+      14,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      2
+    ],
+    "jointly_injective": false,
+    "lattice_size": 10,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      4
+    ],
+    "upper_sets": [
+      1,
+      10,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 7,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      11,
+      10,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 1,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 1
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 16
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 256
+      }
+    ],
+    "first_optimal_supports": [],
+    "jointly_injective": false,
+    "lattice_size": 7,
+    "minimum_count_probes": 0,
+    "points": 4,
+    "producer_supports": [],
+    "upper_sets": [
+      13,
+      10,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 2,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 8
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 192
+      }
+    ],
+    "first_optimal_supports": [
+      2
+    ],
+    "jointly_injective": false,
+    "lattice_size": 6,
+    "minimum_count_probes": 1,
+    "points": 4,
+    "producer_supports": [
+      4
+    ],
+    "upper_sets": [
+      15,
+      10,
+      12,
+      8
+    ]
+  },
+  {
+    "automorphism_count": 6,
+    "family_counts": [
+      {
+        "families": 1,
+        "probes": 0,
+        "rigid_families": 0
+      },
+      {
+        "families": 16,
+        "probes": 1,
+        "rigid_families": 0
+      },
+      {
+        "families": 256,
+        "probes": 2,
+        "rigid_families": 96
+      }
+    ],
+    "first_optimal_supports": [
+      1,
+      2
+    ],
+    "jointly_injective": false,
+    "lattice_size": 9,
+    "minimum_count_probes": 2,
+    "points": 4,
+    "producer_supports": [
+      2,
+      4
+    ],
+    "upper_sets": [
+      9,
+      10,
+      12,
+      8
+    ]
+  }
+]

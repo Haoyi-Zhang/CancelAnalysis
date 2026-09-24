@@ -1,0 +1,83 @@
+{
+  "cumulative_job_cpu_seconds": 7.923747,
+  "directly_compared_files": 73,
+  "jobs": [
+    {
+      "cpu_seconds": 0.9274159999999999,
+      "exit_code": 0,
+      "job": "construct",
+      "peak_rss_kib": 95152,
+      "resumed": false,
+      "wall_seconds": 0.06843039300019882
+    },
+    {
+      "cpu_seconds": 1.067324,
+      "exit_code": 0,
+      "job": "campaign",
+      "peak_rss_kib": 96180,
+      "resumed": false,
+      "wall_seconds": 0.23144342899990988
+    },
+    {
+      "cpu_seconds": 0.8509220000000001,
+      "exit_code": 0,
+      "job": "closure-candidates",
+      "peak_rss_kib": 94244,
+      "resumed": false,
+      "wall_seconds": 0.007492211999988285
+    },
+    {
+      "cpu_seconds": 0.8426819999999999,
+      "exit_code": 0,
+      "job": "closure-check",
+      "peak_rss_kib": 93876,
+      "resumed": false,
+      "wall_seconds": 0.059869643999945765
+    },
+    {
+      "cpu_seconds": 0.8442419999999999,
+      "exit_code": 0,
+      "job": "probe-candidates",
+      "peak_rss_kib": 92724,
+      "resumed": false,
+      "wall_seconds": 0.004557508999823767
+    },
+    {
+      "cpu_seconds": 0.848051,
+      "exit_code": 0,
+      "job": "probe-check",
+      "peak_rss_kib": 92980,
+      "resumed": false,
+      "wall_seconds": 0.014557703000036781
+    },
+    {
+      "cpu_seconds": 0.7843789999999999,
+      "exit_code": 0,
+      "job": "reversible",
+      "peak_rss_kib": 92720,
+      "resumed": false,
+      "wall_seconds": 0.0050377380000554695
+    },
+    {
+      "cpu_seconds": 0.855263,
+      "exit_code": 0,
+      "job": "transport",
+      "peak_rss_kib": 92728,
+      "resumed": false,
+      "wall_seconds": 0.005200727999863375
+    },
+    {
+      "cpu_seconds": 0.9034679999999999,
+      "exit_code": 0,
+      "job": "tests",
+      "peak_rss_kib": 99756,
+      "resumed": false,
+      "wall_seconds": 0.05269284700011667
+    }
+  ],
+  "maximum_job_peak_rss_kib": 99756,
+  "note": "CPU covers these measured jobs, not all earlier interactive prototypes; clean runs must not use --resume.",
+  "resume_used": false,
+  "success": true,
+  "timing_results_excluded_from_equality": true
+}

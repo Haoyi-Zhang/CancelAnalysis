@@ -1,0 +1,83 @@
+{
+  "cumulative_job_cpu_seconds": 7.955369,
+  "directly_compared_files": 73,
+  "jobs": [
+    {
+      "cpu_seconds": 0.913318,
+      "exit_code": 0,
+      "job": "construct",
+      "peak_rss_kib": 95152,
+      "resumed": false,
+      "wall_seconds": 0.06922422200000256
+    },
+    {
+      "cpu_seconds": 1.036596,
+      "exit_code": 0,
+      "job": "campaign",
+      "peak_rss_kib": 94776,
+      "resumed": false,
+      "wall_seconds": 0.22770415700006197
+    },
+    {
+      "cpu_seconds": 0.8618319999999999,
+      "exit_code": 0,
+      "job": "closure-candidates",
+      "peak_rss_kib": 94264,
+      "resumed": false,
+      "wall_seconds": 0.007696251999959713
+    },
+    {
+      "cpu_seconds": 0.883523,
+      "exit_code": 0,
+      "job": "closure-check",
+      "peak_rss_kib": 93872,
+      "resumed": false,
+      "wall_seconds": 0.05933909400005177
+    },
+    {
+      "cpu_seconds": 0.830713,
+      "exit_code": 0,
+      "job": "probe-candidates",
+      "peak_rss_kib": 92804,
+      "resumed": false,
+      "wall_seconds": 0.0041822129999218305
+    },
+    {
+      "cpu_seconds": 0.8696740000000001,
+      "exit_code": 0,
+      "job": "probe-check",
+      "peak_rss_kib": 92976,
+      "resumed": false,
+      "wall_seconds": 0.01455910100003166
+    },
+    {
+      "cpu_seconds": 0.8428829999999999,
+      "exit_code": 0,
+      "job": "reversible",
+      "peak_rss_kib": 92804,
+      "resumed": false,
+      "wall_seconds": 0.00497446300005322
+    },
+    {
+      "cpu_seconds": 0.8516569999999999,
+      "exit_code": 0,
+      "job": "transport",
+      "peak_rss_kib": 92804,
+      "resumed": false,
+      "wall_seconds": 0.005066758999873855
+    },
+    {
+      "cpu_seconds": 0.865173,
+      "exit_code": 0,
+      "job": "tests",
+      "peak_rss_kib": 97968,
+      "resumed": false,
+      "wall_seconds": 0.04665241599991532
+    }
+  ],
+  "maximum_job_peak_rss_kib": 97968,
+  "note": "CPU covers these measured jobs, not all earlier interactive prototypes; clean runs must not use --resume.",
+  "resume_used": false,
+  "success": true,
+  "timing_results_excluded_from_equality": true
+}
