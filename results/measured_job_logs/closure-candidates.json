@@ -1,6 +1,6 @@
 {
-  "cpu_seconds": 0.8618319999999999,
+  "cpu_seconds": 0.849932,
   "exit_code": 0,
-  "peak_rss_kib": 94264,
-  "wall_seconds": 0.007696251999959713
+  "peak_rss_kib": 94252,
+  "wall_seconds": 0.007117090999997799
 }

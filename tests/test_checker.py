@@ -9,6 +9,7 @@ import unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"src"))
 import checker
+import probe_checker
 ROOT=Path(__file__).resolve().parents[1]
 
 class ValidationTests(unittest.TestCase):
@@ -123,9 +124,33 @@ class ValidationTests(unittest.TestCase):
         self.assertTrue(r['globally_natural']);self.assertFalse(r['locally_natural'])
         self.assertEqual(r['probe_failures'],0)
     def test_coverage_is_joint(self):
-        r=checker.audit(checker.load(ROOT/'cases/correlated-inputs.json'))
+        case=checker.load(ROOT/'cases/correlated-inputs.json')
+        self.assertEqual(case['nodes'][0]['tables'][0],[0,0,0,1])  # conjunction
+        self.assertEqual(case['nodes'][0]['tables'][1],[0,0,1,1])  # first projection
+        # Both formal arguments receive the same external x, so only (0,0) and
+        # (1,1) are reachable; full parent/output visibility cannot determine
+        # the off-diagonal value at (1,0).
+        self.assertEqual([case['nodes'][0]['tables'][o][i] for o in (0,1) for i in (0,3)],[0,1,0,1])
+        r=checker.audit(case)
         self.assertEqual(r['input_coverage_at_object_zero'],[[2,4]])
         self.assertTrue(r['globally_natural']);self.assertFalse(r['locally_natural'])
+
+    def test_flat_closure_control_is_excluded_by_strictness(self):
+        case=checker.load(ROOT/'cases/closure-boolean-2-mutated-flat.json')
+        source=case['nodes'][0]['tables'][0]
+        target=case['nodes'][0]['tables'][1]
+        observation=case['probes'][0]['tables'][0]
+        self.assertEqual(source,[0,3,2,3])
+        self.assertEqual(target,[2,3,2,3])
+        self.assertEqual(observation,[0,1,0,1])
+        x=0
+        self.assertNotEqual(source[x],target[x])
+        self.assertEqual(observation[source[x]],observation[target[x]])
+        self.assertEqual(source[x],x)  # the second theorem input c_P(x) is again 0
+        result=checker.audit(case)
+        self.assertFalse(result['all_internal_probes_strict'])
+        self.assertFalse(result['locally_natural'])
+        self.assertEqual(result['probe_failures'],0)
 
 class NonbijectiveTests(unittest.TestCase):
     def test_nonbijective_nested_natural(self):
@@ -143,5 +168,31 @@ class NonbijectiveTests(unittest.TestCase):
         self.assertFalse(r['nested_closure_pipeline'])
         self.assertFalse(r['locally_natural'])
         self.assertEqual(r['probe_failures'],0)
+
+
+class ProbeCheckerMutationTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.candidates=json.loads((ROOT/'results/probe_candidates.json').read_text())
+
+    def test_rejects_inflated_distinguishing_number(self):
+        record=copy.deepcopy(next(r for r in self.candidates if r['upper_sets']==[9,10,12,8]))
+        self.assertEqual(record['distinguishing_number'],3)
+        record['distinguishing_number']=4
+        record['coloring']=[0,1,2,3]
+        record['minimum_count_probes']=2
+        record['supports']=[2,4]
+        with self.assertRaisesRegex(probe_checker.Invalid,'DISTINGUISHING_NUMBER_MISMATCH'):
+            probe_checker.verify(record)
+
+    def test_rejects_deleted_poset_record(self):
+        with self.assertRaisesRegex(probe_checker.Invalid,'INCOMPLETE_OR_EXTRA_POSET_UNIVERSE'):
+            probe_checker.verify_universe(copy.deepcopy(self.candidates[:-1]))
+
+    def test_rejects_duplicate_poset_record(self):
+        data=copy.deepcopy(self.candidates)
+        data[-1]=copy.deepcopy(data[-2])
+        with self.assertRaisesRegex(probe_checker.Invalid,'DUPLICATE_POSET_RECORD'):
+            probe_checker.verify_universe(data)
 
 if __name__=='__main__':unittest.main()
