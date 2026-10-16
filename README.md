@@ -71,6 +71,21 @@ The retained negative control `closure-boolean-2-mutated-flat.json` has source t
 
 ## Evidence map
 
+The manuscript diagrams are generated directly by `figures/draw_figures.py`.
+Finite scientific checks retain their standard-library-only environment;
+redrawing additionally needs Matplotlib:
+
+```sh
+python -m pip install matplotlib
+python -B figures/draw_figures.py --output-dir figures
+python -B figures/draw_figures.py --check
+```
+
+The generator checks the atom-interchange involution, both observation tables,
+and comparable-pair separation. Check mode redraws both diagrams in two fresh
+directories and compares their bytes. The manuscript uses the same vector PDFs
+under `paper/figures`, without a TeX drawing engine.
+
 | Path | Role |
 |---|---|
 | `proofs/theory.md` | Complete proof note and model boundaries |

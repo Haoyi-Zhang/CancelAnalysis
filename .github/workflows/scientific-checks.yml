@@ -48,6 +48,10 @@ jobs:
           timeout --signal=TERM --kill-after=10s 1200s \
             python -B reproduce.py --output "$RUNNER_TEMP/p075-evidence" \
             2>&1 | tee "$RUNNER_TEMP/p075-whole-run.log"
+      - name: Rebuild and check manuscript diagrams
+        run: |
+          python -m pip install matplotlib
+          python -B figures/draw_figures.py --check
       - name: Upload raw output and finite evidence on every outcome
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
